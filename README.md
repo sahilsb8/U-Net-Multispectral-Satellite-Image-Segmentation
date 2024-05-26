@@ -1,5 +1,8 @@
 # U-Net-Multispectral-Satellite-Image-Segmentation
+
+<div align="center">
 <img width="894" alt="SCR-20240525-nkkv" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/a4397099-a0eb-4797-a8fb-479d1a730a39">
+</div>
 
 ## Description
 This repository uses Keras based implementation of U-Net to perform feature detection on satellite images of Indian terrain and buildup focused dataset specially created by us.
