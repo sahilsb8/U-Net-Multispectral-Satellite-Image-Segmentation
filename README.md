@@ -14,12 +14,13 @@ This repository uses Keras based implementation of U-Net to perform feature dete
 ## Annotation Procedure
 ### Google Earth Engine
 Google Earth Engine serves as a hub for scientific examination and portrayal of geospatial data, catering to a diverse range of users including academic, non-profit, business, and governmental entities. It houses satellite imagery within a publicly accessible data repository, encompassing historical earth images spanning over four decades. This platform was particularly chosen due to its open source and freeware nature and its technical flexibility. It is easy to use and has an excellent coverage of the globe with great resolution and swathe sizes. It’s almost real time nature and multispectral capability further strengthen the decision to use Google Earth Engine.
-<img width="700" alt="Google Earth Engine Screenshot" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/ac1b3601-a894-46bf-8a11-0b60bc67cbdf">
+
+<img width="700" alt="Google Earth Engine Screenshot" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/ac1b3601-a894-46bf-8a11-0b60bc67cbdf" align="center">
 
 The images chosen for creation of this specialised dataset were multispectral in nature to potentially harness the infrared capability of satellite imaging. The chosen images had 6 bands and were acquired in the TIFF format which is a vector rasterized format which can hold multiple channel values per pixel.
 
 ### Conversion to RGB or IR Images
 After acquiring the TIFF files for the selected regions and bands from the Google Earth Engine we can further process them into PNG files with RGB channels or IR channels. This can be done using the Conversion_of_image.ipynb or the Conversion_of_image_nir.ipynb where the former converts the TIFF files into RGB whereas the latter into IR. 
 
-<img width="425" alt="RGB Image" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/398ae0dd-0ca1-4674-a241-0c9586e87c23"><img width="425" alt="Corresponding IR Image" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/4fdb8728-854e-49c1-98bc-58b67891e448">
+<img width="400" align="center" alt="RGB Image" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/398ae0dd-0ca1-4674-a241-0c9586e87c23"><img width="400" align="center" alt="Corresponding IR Image" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/4fdb8728-854e-49c1-98bc-58b67891e448">
 
