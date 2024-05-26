@@ -205,3 +205,8 @@ The other notebook titled AverageResCalulator.ipynb uses siple averaging techniq
 ### TileMaker
 
 There is also a Python Notebook provided which can be used to create tiles or patches of desired size and save them natively in PNG formats. These patches although ultimately not useful for our model it can be used to save memory by not patchifying in the runtime. 
+
+## Implementation Examples
+
+![Unknown-6](https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/6a0a5123-0114-494d-8065-ea5b0c3cb378)
+![Unknown-3](https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/079e16c7-f5c2-4dac-a000-297d915a0ffe)
