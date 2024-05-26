@@ -190,3 +190,18 @@ Trainable params: 7775652 (29.66 MB)
 Non-trainable params: 0 (0.00 Byte)
 __________________________________________________________________________________________________
 ```
+Note: This model was trained for a 100 epochs and a batch size of 16 on a V100 GPU. The train test split was 80:20.
+
+# Class Statistics Calculation
+
+The statistics and imbalances of the dataset can be found out using the Class_stats.ipynb and AverageResCalulator.ipynb. The Class_stats uses pixel wise area calculation to find the class label imbalances. In the provided dataset the following statistics were found.
+
+<div align="center">
+<img alt="Class Stats" width="700" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/3e9bdd31-7557-40b4-a556-9d73c283efee">
+</div>
+
+The other notebook titled AverageResCalulator.ipynb uses siple averaging technique to calculate the average pixel height and width of our dataset. In our dataset it came out to be, width = 1608 px and height = 940 px. These statistics are important to maintain the balance of the dataset and provide in the conducted research. 
+
+### TileMaker
+
+There is also a Python Notebook provided which can be used to create tiles or patches of desired size and save them natively in PNG formats. These patches although ultimately not useful for our model it can be used to save memory by not patchifying in the runtime. 
