@@ -19,5 +19,5 @@ The images chosen for creation of this specialised dataset were multispectral in
 
 ### Conversion to RGB or IR Images
 After acquiring the TIFF files for the selected regions and bands from the Google Earth Engine we can further process them into PNG files with RGB channels or IR channels. This can be done using the Conversion_of_image.ipynb or the Conversion_of_image_nir.ipynb where the former converts the TIFF files into RGB whereas the latter into IR. 
-![RGB Image](https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/398ae0dd-0ca1-4674-a241-0c9586e87c23)![Corresponding IR Image](https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/4fdb8728-854e-49c1-98bc-58b67891e448)
+<img width="400" alt="RGB Image" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/398ae0dd-0ca1-4674-a241-0c9586e87c23"><img width="400" alt="Corresponding IR Image" src="https://github.com/sahilsb8/U-Net-Multispectral-Satellite-Image-Segmentation/assets/56041069/4fdb8728-854e-49c1-98bc-58b67891e448">
 
