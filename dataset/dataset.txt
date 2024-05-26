@@ -1,0 +1,6 @@
+This folder contains various folders with following characteristics.
+  1. images: This folder contains the RGB band images without any resolution bottleneck.
+  2. masks: This folder contains the corresponding masks for the RGB as well as the IR images.
+  3. images_IR: This folder contains the IR band images without any resolution bottleneck.
+  4. discards: This fodler contains the discarded images due to resolution bottleneck and can be used in case of usage of a smalled tile size.
+  5. raw: This folder contains the raw tiff files having all bands rasterized data intact.
