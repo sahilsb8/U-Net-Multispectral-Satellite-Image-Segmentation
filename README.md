@@ -41,7 +41,7 @@ There is extensive documentation available for the [LabelMe](https://github.com/
 
 After annotating the images save them as JSON files and apply the following functions to convert the JSON files to corresponding the png Mask file. A batch file can be writted to convert multiple files at once according to particular use cases. The following can be used to install LabelME in a python environment titled labelme. 
 
-'''python
+```python
 # python3
 conda create --name=labelme python=3
 source activate labelme
@@ -51,15 +51,15 @@ source activate labelme
 pip install labelme
 # or you can install everything by conda command
 # conda install labelme -c conda-forge
-'''
+```
 
 Now to run our environment and the mask conversion script we shall use the following code
 
-'''python
+```python
 conda info --envs
 Conda activate labelme
 cd directory/with/image
 labelme_export_json annotated_image_file_name.json -o mask_file_name
-'''
+```
 
 
