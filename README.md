@@ -5,11 +5,11 @@
 This repository uses Keras based implementation of U-Net to perform feature detection on satellite images of Indian terrain and buildup focused dataset specially created by us.
 
 ## Dataset
--The images were acquired from Google Earth Engine from the Sentinel-2 dataset with a resolution of 5m and contains 6 bands of Red, Green, Blue, NIR, SWIR1, SWIR2.
--Over a 106 images were annotated of Indian landscapes of terrains such as Heavy Urban areas, Farmlands, Coastal areas, Suburban areas, River-bank towns and mountainous regions. These files are located in the dataset/images directory.
--They were annotated using the [LabelMe](https://github.com/labelmeai/labelme) Tool, use of which in our case is explained further.
--Resolution for satellite images s 16-bit. However, mask-files are 8-bit.
--Also available are correctly annotated images of each satellite image location, called mask. These files contain information 4 different classes: Builtup, Vegetation, Water and Undefined. Builtup being defined by the colour red(#800000), Water being defined by the colour yellow(#808000), Vegetation being defined by the colour green(#008000) and Undefined being defined by the colour black(#000000).
+- The images were acquired from Google Earth Engine from the Sentinel-2 dataset with a resolution of 5m and contains 6 bands of Red, Green, Blue, NIR, SWIR1, SWIR2.
+- Over a 106 images were annotated of Indian landscapes of terrains such as Heavy Urban areas, Farmlands, Coastal areas, Suburban areas, River-bank towns and mountainous regions. These files are located in the dataset/images directory.
+- They were annotated using the [LabelMe](https://github.com/labelmeai/labelme) Tool, use of which in our case is explained further.
+- Resolution for satellite images s 16-bit. However, mask-files are 8-bit.
+- Also available are correctly annotated images of each satellite image location, called mask. These files contain information 4 different classes: Builtup, Vegetation, Water and Undefined. Builtup being defined by the colour red(#800000), Water being defined by the colour yellow(#808000), Vegetation being defined by the colour green(#008000) and Undefined being defined by the colour black(#000000).
 
 ## Annotation Procedure
 ### Google Earth Engine
