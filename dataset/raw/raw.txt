@@ -1,0 +1,1 @@
+These files are raw TIFF files and are as is downloaded from the Google Earth Engine without any further processing. We need to use the Conversion_of_image.ipynb or Conversion_of_image_nir.ipynb to get RGB or IR band PNG files which can be fed to the model.
